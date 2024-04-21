@@ -1,0 +1,20 @@
+1. What are browsers?
+- brosers are something like chrome, mozilla, edge. or something we can write browsers. goal of a browser is to interpret the html and render the html correctly.
+2. How do they render websites?
+3. What purpose does html/css/js server?
+- the web is written to understand html/css/js can also understand other framework.
+4. what is html?
+- html defines the structure
+5. what does div stands for?
+- One division of the page, one full line one full width of the page
+6.what if the text is long in div instead of one line?
+- text will overflow
+7.is it necessary to write html tag?
+- no necessary browser adds it by default, good practice is to write
+8. head tag contains all the tags that are not necessarily to be rendered in the page.
+9. vocabulary - tag and attribute
+- attributes are something that we can add to the tags. it helps define what that specific html tag should do
+10. main css usecase
+- we can style website(color,fontsize)
+- used of positioning elements on the page
+
