@@ -17,4 +17,3 @@
 10. main css usecase
 - we can style website(color,fontsize)
 - used of positioning elements on the page
-

@@ -1,0 +1,1 @@
+1. Create landing page similar to zerodha using html, css
