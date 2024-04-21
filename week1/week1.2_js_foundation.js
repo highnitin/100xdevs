@@ -48,3 +48,19 @@
 // }
 
 // console.log(displayResult(sum(3, 5)));
+
+function some(a, b, sum) {
+	console.log("from some function a = ", a);
+	console.log("from some function b = ", b);
+	let value = sum(b, a);
+	return value;
+}
+
+function sum(a, b) {
+	console.log("from sum function a =", a);
+	console.log("from sum function b =", b);
+	let result = a + b;
+	return result;
+}
+
+console.log(some(1, 2, sum));
