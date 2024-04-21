@@ -1,5 +1,7 @@
 1. What are browsers?
 - brosers are something like chrome, mozilla, edge. or something we can write browsers. goal of a browser is to interpret the html and render the html correctly.
+- browser can only understand html/css/js (not technically true)
+- there are ways to run c++, java in browsers
 2. How do they render websites?
 3. What purpose does html/css/js server?
 - the web is written to understand html/css/js can also understand other framework.
