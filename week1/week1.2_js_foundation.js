@@ -49,18 +49,65 @@
 
 // console.log(displayResult(sum(3, 5)));
 
-function some(a, b, sum) {
-	console.log("from some function a = ", a);
-	console.log("from some function b = ", b);
-	let value = sum(b, a);
-	return value;
-}
+// question asked in cohort why cosole gives undefined
 
-function sum(a, b) {
-	console.log("from sum function a =", a);
-	console.log("from sum function b =", b);
-	let result = a + b;
-	return result;
-}
+// function some(a, b, sum) {
+// 	console.log("from some function a = ", a);
+// 	console.log("from some function b = ", b);
+// 	let value = sum(b, a);
+// 	return value;
+// }
 
-console.log(some(1, 2, sum));
+// function sum(a, b) {
+// 	console.log("from sum function a =", a);
+// 	console.log("from sum function b =", b);
+// 	let result = a + b;
+// 	return result;
+// }
+
+// console.log(some(1, 2, sum));
+
+// 1.3 | Basics JS APIs (Beginners)
+// apis here are not actual api but referred to built in properties by harkirat
+// auxillary helper methods
+
+//string
+// str.length,  not a function it is a property
+// indexof("hello", "l"); // function
+// lastIndexOf("hello", "l"); // function
+// str.slice(start,end)
+// replace("hello", "l");
+// split("hello", "l");
+// const str = "hello  ,  world";
+// const value = str.split(" ");
+// console.log(value);
+// str.trim();
+// toUpperCase()
+// "hello".toUpperCase();
+// "HELLO".toLowerCase();
+
+// number
+// parseInt - globalfunction
+
+// array
+// push()
+// pop()
+// shift()
+// unshift()
+// concat()
+// indexOf()
+// forEach()
+// map()
+// filter()
+// reduce()
+// slice()
+// splice()
+// sort()
+// reverse()
+
+// const value = [1, 2, 3];
+// function sum(num) {
+// 	console.log(num + 100);
+// }
+
+// value.forEach(sum);
