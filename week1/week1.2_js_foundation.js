@@ -111,3 +111,46 @@
 // }
 
 // value.forEach(sum);
+
+// class
+
+// class Animal {
+// 	constructor(aniName, breed, color, legs) {
+// 		this.aniName = aniName;
+// 		this.breed = breed;
+// 		this.color = color;
+// 		this.legs = legs;
+// 	}
+// 	static message() {
+// 		console.log(`Animal`);
+// 	}
+// 	info() {
+// 		console.log(
+// 			`${this.aniName} is of ${this.breed} breed in ${this.color} color with ${this.legs} legs`
+// 		);
+// 	}
+// }
+
+// const dog = new Animal("Tama", "Labu", "Golden", 4);
+// console.log(dog);
+
+// Animal.message();
+// dog.info();
+
+// Date and time function
+
+// const date = new Date();
+// console.log(date);
+// console.log(date.getDate());
+// console.log(date.getDay());
+// console.log(date.getFullYear());
+// // console.log(date.getTimezoneOffset());
+
+// const hh = date.getHours();
+// const hours = hh - 12;
+
+// console.log("Hello", hours);
+
+// json
+// math functions
+// object
