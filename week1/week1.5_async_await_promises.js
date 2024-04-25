@@ -33,7 +33,7 @@
 
 // const fileSystem = require("fs");
 
-// fileSystem.readFile("a.txt", "utf8", function (err, data) {
+// fileSystem.readFile("week1/curiousCat.txt", "utf8", function (err, data) {
 // 	if (err) throw err;
 
 // 	console.log(data);
@@ -44,3 +44,35 @@
 // there are 4 high level things that makes js async - 1. callStack, 2. webAPIs, 3. eventLoop & 4. callback & queue.
 
 // explore more here - http://latentflip.com/loupe/?code=ZnVuY3Rpb24gcHJpbnRUZXh0KHN0cikgew0KCXJldHVybiBjb25zb2xlLmxvZygiRnJvbSBwcmludFRleHQiLCBzdHIpOw0KCS8vIHJldHVybiBzdHI7DQp9DQoNCmNvbnN0IHRleHQgPSAiSGVsbG8gV29ybGQiOw0KDQpmdW5jdGlvbiBjYWxsYmFjaygpIHsNCglyZXR1cm4gY29uc29sZS5sb2coIkZyb20gQ2FsbEJhY2siLCBwcmludFRleHQodGV4dCkpOw0KfQ0KDQpzZXRUaW1lb3V0KGNhbGxiYWNrLCAxMDAwKTsNCi8vIGNvbnNvbGUubG9nKCJzZXRUaW1lb3V0IixhYmMpOw0KDQpjb25zb2xlLmxvZygiSGVsbG8gRGV2ZWxvcGVyIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D
+
+// function findSum(n) {
+// 	let ans = 0;
+// 	for (let i = 0; i < n; i++) {
+// 		ans += i;
+// 	}
+// 	console.log(ans);
+// }
+
+// function findSumTill100() {
+//     const result = findSum(100);
+//     return result;
+// }
+
+// setTimeout(findSumTill100, 1000);
+// console.log("hello world");
+
+// function findSum(n) {
+// 	let ans = 0;
+// 	for (let i = 0; i < n; i++) {
+// 		ans += i;
+// 	}
+// 	return ans;
+// }
+
+// function findSumTill100() {
+// 	const result = findSum(100);
+// 	console.log(result);
+// }
+
+// setTimeout(findSumTill100, 1000);
+// console.log("hello world");
