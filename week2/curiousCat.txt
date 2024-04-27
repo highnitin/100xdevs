@@ -1,0 +1,8 @@
+
+- how are asynchronous functions are called if js is single threaded and sychronous
+
+- does callback queue uses ram
+
+- what if all the code is dependent on aysnc function, ans. then write the code inside async function
+ 
+
