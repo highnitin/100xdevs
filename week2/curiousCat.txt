@@ -5,4 +5,3 @@
 
 - what if all the code is dependent on aysnc function, ans. then write the code inside async function
  
-
