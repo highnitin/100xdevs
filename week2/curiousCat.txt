@@ -5,3 +5,15 @@
 
 - what if all the code is dependent on aysnc function, ans. then write the code inside async function
  
+- ECMAscript
+- learn more at - https://tc39.es/ecma262/#sec-numbers-and-dates
+-long story short ecma script is a guiline or the rules for scrpiting language
+
+
+
+
+
+
+
+
+
