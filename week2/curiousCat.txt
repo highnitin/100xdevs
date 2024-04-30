@@ -9,7 +9,52 @@
 - learn more at - https://tc39.es/ecma262/#sec-numbers-and-dates
 -long story short ecma script is a guiline or the rules for scrpiting language
 
+- is node.js a language?
+No nodejs is a runtime, js is a language
 
+- http protocol
+
+things clients need to worry about
+- protocol (http/https)
+- address (url/ip/port)
+- route
+- header/body/query params
+- method
+
+things server need to worry about
+- response headers
+- response body
+- status codes
+
+- Usually communication would happen like this 
+
+Client sends the request to server
+
+https://chat.openai.com/backend-api/conversation
+
+ |                  |               |
+protocol           url             Route
+
+
+
+header - cookie - xzy@13
+body - what is 2 + 2 (usually in json)
+method: POST
+
+server resonds to the client
+
+resonse header ----
+
+response body - 2 + 2 equal to 4
+
+status code - 200
+
+question - what happens when i go it google.com and press enter
+what are the sequence of events happen in the browser.
+
+DNS resolution
+
+learn about OSI (operating system interface)
 
 
 
