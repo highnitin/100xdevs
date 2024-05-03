@@ -59,5 +59,6 @@ learn about OSI (operating system interface)
 why we cannot access the website using ip address?
 if we hit the ip directly there is information for the referrer and ip gives nothing. read more
 
+- postman adding body from post method using postman
 
 

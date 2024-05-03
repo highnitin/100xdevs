@@ -50,6 +50,15 @@ const port = 6969;
 // 	response.send(htmlContent);
 // });
 
+app.get("/test", (request, response) => {
+	console.log(request.body);
+	response.send("Hello Developer");
+	console.log(request.body);
+	// console.log(request);
+	// console.log(request.headers);
+	// console.log(request.headers["authorization"]);
+});
+
 app.post("/test", (request, response) => {
 	console.log(request.body);
 	response.send({
@@ -65,3 +74,5 @@ app.listen(port, () => {
 	console.log(`http://localhost:${port}/ohyeah`);
 	console.log("We are on Port 69!");
 });
+
+// try with post man
