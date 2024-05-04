@@ -51,20 +51,21 @@ const port = 6969;
 // });
 
 app.get("/test", (request, response) => {
-	console.log(request.body);
+	// console.log(request.body);
 	response.send("Hello Developer");
-	console.log(request.body);
+	// console.log(request.body);
 	// console.log(request);
 	// console.log(request.headers);
 	// console.log(request.headers["authorization"]);
 });
 
 app.post("/test", (request, response) => {
-	console.log(request.body);
 	response.send({
 		data: "2 + 2 = 8",
 	});
 	console.log(request.body);
+	console.log(request.body.data);
+	// console.log(request.body);
 	// console.log(request);
 	// console.log(request.headers);
 	// console.log(request.headers["authorization"]);
