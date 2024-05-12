@@ -47,9 +47,18 @@
 // grep -o "ls" 2.4_bash.js - only ls will be returned
 // grep -w "ls" 2.4_bash.js - the complete line where ls is present will be returned
 // history - to check the history
-//
-//
-//
+// create a bash script and run: bash script.sh
+// grep 'error' log.txt : return all error present in log.txt
+// grep -v 'info' log.txt : return all message instead of info present in log.txt
+// grep -A 5 'info' log.txt : return all info after 5th line present in log.txt
+// grep -B 5 'info' log.txt : return all info before 5th line present in log.txt
+// grep -C 5 'info' log.txt : return all info before and after 5th line present in log.txt
+// sed's substitute command has the following pattern:'s/pattern/replacement/'
+// sed 's/ERROR/CRITICAL' log.txt
+// sed '3 s/ERROR/CRITICAL' log.txt
+// sed '3,5 s/ERROR/CRITICAL' log.txt
+// sed -n '3, /ERROR/ p' log.txt
+// learn more about sed and awk command
 
 // history while practicing
 //  1  ls
