@@ -61,4 +61,6 @@ if we hit the ip directly there is information for the referrer and ip gives not
 
 - postman adding body from post method using postman
 
+- does express is bundled with node: no, we have to install it
 
+- 
