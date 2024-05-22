@@ -17,3 +17,5 @@ app.get("/", function (request, response) {
 });
 
 app.listen(3000);
+
+// create a express server where you can get and post the data
