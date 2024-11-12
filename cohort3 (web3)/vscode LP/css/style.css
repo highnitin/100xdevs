@@ -1,0 +1,70 @@
+.bodyContainer {
+	background-color: #0d1117;
+	color: #fff;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.headerSection {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 7px 0 0 0;
+	gap: 15px;
+}
+
+.headerLogoContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	/* border: 2px solid red; */
+}
+.headerLogoContainer > img {
+	width: 25px;
+}
+
+.headerLogoText {
+	font-size: 20px;
+	font-weight: 600;
+	color: #e9eaeb;
+}
+
+.headerMenuContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+	/* border: 2px solid red; */
+}
+
+.headerElementMenu {
+	font-size: 16px;
+	font-weight: 500;
+	color: #9ba3b4;
+}
+
+.headerSearchContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	/* border: 2px solid red; */
+}
+
+.headerSearchContainer > input {
+	background-color: #0d1117;
+	color: #9ba3b4;
+	border: 1px solid #9ba3b4;
+	padding: 7px 10px;
+	border-radius: 2px;
+}
+
+.headerSearchButton {
+	background-color: #0078d4;
+	color: #e9eaeb;
+
+	font-size: 16px;
+	font-weight: 600;
+	padding: 7px 10px;
+	border: none;
+	border-radius: 2px;
+}
